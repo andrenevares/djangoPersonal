@@ -1,16 +1,42 @@
 {% extends "personal/base.html" %}
-<div class="container">
-    {% block content %}
-    <div class="mt-4 pl-4 pb-4">
+
+{% block content %}
+<div class="container pt-5">
+    <div class="mt-4 pb-4">
         <h1 class="blog-title">Como criar um post chato</h1>
         <p class="text-muted">Afinal ser chato não é para todo mundo</p>
         <div class="row m-0 p-0 social-icons">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square pl-2"></i>
-            <i class="fab fa-instagram-square pl-2"></i>
-            <i class="fas fa-share-alt pl-2"></i>
+            <div class="col-6 p-0 m-0">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square pl-2"></i>
+                <i class="fab fa-instagram-square pl-2"></i>
+                <i class="fas fa-share-alt pl-2"></i>
+            </div>
+            <div class="col-6 p-0 m-0 float-right">
+                <p>André Nevares</p>
+            </div>
         </div>
     </div>
-    <img class="img-fluid" src="https://miro.medium.com/max/700/1*KuHdLYgIyn3dzcgifq_qAA.jpeg">
-    {% endblock content %}
 </div>
+<div class="container-fluid p-0 text-center">
+    <img class="img-fluid" src="https://miro.medium.com/max/700/1*KuHdLYgIyn3dzcgifq_qAA.jpeg">
+</div>
+<div class="container">
+    <div class="content mt-4 text-justify">
+        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos,
+            suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard
+            McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras
+            palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da
+            palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e
+            1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este
+            livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum,
+            "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.</p>
+
+        <p>O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os
+            interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram
+            reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por
+            H. Rackham em 1914.</p>
+    </div>
+
+</div>
+{% endblock content %}

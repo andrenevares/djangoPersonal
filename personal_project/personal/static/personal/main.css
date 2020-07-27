@@ -1,13 +1,26 @@
 body {
-    background-color: black !important;
-    color: #ffffff
+    background-color: #fdfdfd !important;
+    color: #030303
 }
 
-.navbar {
-    position: relative;
-    opacity: 80%;
-    background-color: white;
+/* ----------------- */
+/* Ajustes de navbar */
+/* ----------------- */
+
+
+.navbar-toggler {
+    border: none;
 }
+
+button.navbar-toggler {
+    outline: 0px !important;
+}
+
+.bg-nevares{
+    background-color: #8f1b1b;
+    opacity: 90%;
+}
+/* fim navbar */
 
 .blog-title {
     font-size: 2rem;
@@ -18,6 +31,3 @@ body {
     color: gray
 }
 
-.social-icons:hover {
-    color: yellow;
-}
