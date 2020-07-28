@@ -8,3 +8,4 @@ class Post(models.Model):
     imagem = models.ImageField(upload_to='portfolio/images')
     conteudo = models.TextField()
 
+
